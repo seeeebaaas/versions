@@ -1,0 +1,570 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+body {
+    background-color: white;
+}
+
+h1{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 35pt;
+    color: #f32735;
+    text-align: center;
+    white-space: pre-wrap;
+
+}
+
+#title{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+}
+
+#cover{
+    display: flex;
+    width: 700px;
+    height: 900px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#cover img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    
+}
+
+#title img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 24pt;
+    font-style: italic; 
+    font-weight:350;
+    color: #f32735;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+
+}
+
+nav a{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 23pt;
+    padding: 1% 7%;
+    text-decoration: none;
+    color: white;
+    background-color: #f32735;
+    margin: 10px;
+    border-radius: 20px;
+    gap:30px;
+}
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+
+nav{
+    padding: 3%;
+    height: 50px;
+}
+
+
+
+#sec1 h1{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 100px;
+    color: #da6b02;
+}
+
+#sec1 header{
+    background-color: #73cb03;
+    
+}
+
+#sec1 #screen{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+#sec1 #screen img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+}
+
+
+#sec1 h2{
+    font-family: 'Helvetica';
+    font-size: 25px;
+    color: #0945c7;
+    font-style: italic; 
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+
+#sec1 nav{
+    
+    padding: 3%;
+    height: 70px;
+    background-color: #73cb03;
+
+}
+
+#sec1 nav a{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 23pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: #0945c7;
+    background-color: #da6b02;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#sec1 section{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: #73cb03;
+    padding: 5%;
+    height:auto;
+    width:100%;
+}
+
+#sec1 #content{
+    display: flex;
+    align-items: center;
+    position:relative;
+    margin: auto; 
+    background-color: white;
+    border-radius: 30px;
+}
+
+#sec1 h3{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 40pt;
+    color: #da6b02;
+    width: 100%;
+    height:auto;
+    margin: 10px;
+    margin-top:0;
+    text-align: left;
+}
+
+#sec1 h4{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 40pt;
+    color: #da6b02;
+    width: 100%;
+    height:auto;
+    margin: 20px;
+    margin-left:0;
+    text-align: right;
+}
+
+#sec1 #content img{
+    width:auto;
+    height: 350px;
+    padding: 0;
+}
+
+#sec1 #content2{
+    display: flex;
+    align-items: center;
+    position:relative;
+    margin: auto; 
+    background-color: white;
+    border-radius: 30px;
+}
+
+#sec1 #content2 img{
+    width:auto;
+    height: 350px;
+    padding: 15px;
+    padding-right:5;
+    border-radius: 30px;
+}
+
+#sec1 p{
+    font-family: 'Helvetica';
+    font-size: 17px;
+    color: #0945c7;
+    font-weight:200;
+    margin-bottom: 10px;
+    text-align: justify;
+    padding:20px;
+    hyphens: auto;
+}
+
+#sec1 #content3{
+    display: flex;
+    align-items: center;
+    position:relative;
+    margin: auto; 
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#sec1 #content3 img{
+    width:auto;
+    height: 300px;
+    padding: 15px;
+    padding-bottom: 0;
+    padding-left:0;
+}
+
+#sec1 h5{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 40pt;
+    color: #da6b02;
+    width: 100%;
+    height:auto;
+    margin: 20px;
+    text-align: left;
+}
+
+#sec1 a{
+    font-size: 18px;
+}
+
+#sec1 footer{
+    font-family: Helvetica;
+    background-color: #73cb03;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+#sec2 h1{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 100px;
+    color: #01f50a;
+}
+
+#sec2 header{
+    background-color: black;
+    
+}
+
+#sec2 h2{
+    font-family: 'Helvetica';
+    font-size: 25px;
+    color: #01f50a;
+    font-style: italic; 
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+#sec2 h3{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 40pt;
+    color: #01f50a;
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sec2 #self{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+#sec2 #self img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+}
+
+#sec2 nav{
+    padding: 3%;
+    height: 70px;
+    background-color: black;
+}
+
+#sec2 nav a{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 23pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: black;
+    background-color: #01f50a;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#sec2 #inner{
+    display: flex;
+    width: 700px;
+    height: 400px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px; 
+    background-color: white;
+}
+
+#sec2 #inner img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+}
+
+#sec2 #text{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin:20px;
+
+}
+
+#sec2 p{
+    font-family: 'Helvetica';
+    font-size: 17px;
+    color: #01f50a;
+    font-weight:200;
+    text-align: justify;
+    align-items: center;
+    hyphens: auto;
+    width: 800px;
+    height: auto;
+}
+
+
+#sec2 #images{
+    display: flex;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: 20px;
+}
+
+#sec2 #images img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+}
+
+#sec2 section{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: black;
+    padding: 5%;
+    height: auto;
+    width:100%;
+
+}
+
+#sec2 a{
+    font-size: 18px;
+    color:#01f50a;
+    text-align: center;
+}
+
+#sec2 footer{
+    font-family: Helvetica;
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
+
+#sec3 h1{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 100px;
+    color: #f12535;
+}
+
+#sec3 header{
+    background-color: #fcfcfc;
+    
+}
+
+#sec3 h2{
+    font-family: 'Helvetica';
+    font-size: 25px;
+    color: #f12535;
+    font-style: italic; 
+    font-weight:400;
+    margin-bottom: 10px;
+}
+
+#sec3 #social{
+    display: flex;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 10px;
+}
+
+#sec3 #social img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+}
+
+#sec3 nav{
+    padding: 3%;
+    height: 70px;
+    background-color: #fcfcfc;
+}
+
+#sec3 nav a{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 23pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: #fcfcfc;
+    background-color: #f12535;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#sec3 #text{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px; 
+}
+
+#sec3 p{
+    font-family: 'Helvetica';
+    font-size: 17px;
+    color: #1015ce;
+    font-weight:200;
+    text-align: justify;
+    align-items: center;
+    hyphens: auto;
+    width: 800px;
+    height: auto;
+}
+
+#sec3 section{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 400px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: #fcfcfc;
+    padding: 5%;
+    height: auto;
+}
+
+#sec3 #banner{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+#sec3 #banner img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+    border-radius: 30px;
+}
+
+#sec3 h3{
+    font-family: 'Big Shoulders Stencil';
+    font-size: 45pt;
+    color: #f12535;
+    text-align: center;
+}
+
+#sec3 #collage{
+    display: flex;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    margin: auto; 
+    margin-bottom: 10px;
+    border-radius: 30px;
+    gap:10px;
+}
+
+#sec3 #collage img{
+    max-width: fit-content;
+    max-height: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+#sec3 footer{
+    font-family: Helvetica;
+    color: #1015ce;
+    padding: 1%;
+    text-align: center;
+}
